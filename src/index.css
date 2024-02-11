@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gates::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+.gates::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+
+.gates::-webkit-scrollbar-thumb {
+  background-color: black; /* color of the scroll thumb */
+  border-radius: 23px; /* roundness of the scroll thumb */
+  border: 3px solid transparent; /* creates padding around scroll thumb */
+}
